@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 const NavBar = () => {
     return (
         <nav className="flex justify-center bg-blue-950 border-b border-slate-200">
