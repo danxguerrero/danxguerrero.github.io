@@ -5,7 +5,7 @@ const NavBar = () => {
                 <div>
                     Daniel Guerrero
                 </div>
-                <div className="flex justify-between w-[200px] text-zinc-300 items-center">
+                <div className="hidden sm:flex justify-between w-[200px] text-zinc-300 items-center">
                     <div>About</div>
                     <div>Skills</div>
                     <div>Projects</div>
