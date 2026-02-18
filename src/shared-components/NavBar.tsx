@@ -2,7 +2,8 @@ const NavBar = () => {
     return (
         <nav className="flex justify-center bg-slate-900 border-b border-slate-800">
             <div className="flex w-full max-w-7xl items-center justify-between px-8 py-5 text-white">
-                <div>
+                <div className="flex items-center">
+                    <i className="fa-solid fa-user-astronaut mr-2 text-3xl bg-gradient-to-r from-cyan-500 to-emerald-500 text-transparent bg-clip-text"></i>
                     Daniel Guerrero
                 </div>
                 <div className="hidden sm:flex justify-between w-[200px] text-slate-300 items-center">
