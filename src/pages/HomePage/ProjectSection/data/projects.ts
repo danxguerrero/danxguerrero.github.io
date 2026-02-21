@@ -1,4 +1,4 @@
-type projectType = {
+export type projectType = {
   name: string;
   description: string;
   stack: string[];
