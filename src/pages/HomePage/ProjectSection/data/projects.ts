@@ -5,6 +5,7 @@ export type projectType = {
   deployedUrl: string;
   githubUrl: string;
   group: string;
+  imgUrl: string
 };
 
 export const projectData: projectType[] = [
@@ -23,6 +24,7 @@ export const projectData: projectType[] = [
     deployedUrl: "https://mocking-bird-rho.vercel.app/",
     githubUrl: "https://github.com/danxguerrero/MockingBird",
     group: "solo",
+    imgUrl: "https://imgur.com/NY7eHfc.png",
   },
   {
     name: "MockingBird CLI",
@@ -32,6 +34,7 @@ export const projectData: projectType[] = [
     deployedUrl: "",
     githubUrl: "https://github.com/danxguerrero/mockingbird-cli",
     group: "solo",
+    imgUrl: "https://imgur.com/NY7eHfc.png",
   },
   {
     name: "Project Hermes",
@@ -41,5 +44,6 @@ export const projectData: projectType[] = [
     deployedUrl: "https://atlaus-project-hermes.netlify.app/",
     githubUrl: "https://github.com/ATLAUS/Project-Hermes-React",
     group: "ATLAUS",
+    imgUrl: "https://imgur.com/En85emj.png"
   },
 ];

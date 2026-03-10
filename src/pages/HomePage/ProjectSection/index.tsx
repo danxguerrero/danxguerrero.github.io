@@ -18,7 +18,7 @@ const ProjectSection = () => {
             </button>
           </div>
         </div>
-        <div className="flex justify-between mt-12">{projectItems}</div>
+        <div className="flex justify-between mt-12 flex-wrap">{projectItems}</div>
       </div>
     </div>
   );
